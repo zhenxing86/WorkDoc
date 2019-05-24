@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?dcih1z');
+  src:  url('../fonts/icomoon.eot?dcih1z#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?dcih1z') format('truetype'),
+    url('../fonts/icomoon.woff?dcih1z') format('woff'),
+    url('../fonts/icomoon.svg?dcih1z#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.icon-cake:before { content:"\e900"}
+.icon-downarrow:before { content:"\e901"}
+.icon-uparrow:before { content:"\e902"}
+.icon-add:before { content:"\e903"}
+.icon-close:before { content:"\e904"}
+.icon-rightarrow:before { content:"\e905"}
+.icon-initial:before { content:"\e90a"}
+.icon-record:before { content:"\e909"}
+.icon-video:before { content:"\e908"}
+.icon-photo:before { content:"\e907"}
+.icon-info:before { content:"\e906"}
+.icon-yes:before { content:"\e90b"}
+.icon-play:before { content:"\e90c"}
+
+.icon-height:before { content:"\e90d"}
+.icon-weight:before { content:"\e90e"}
+.icon-allergy:before { content:"\e90f"}
+.icon-inheritance:before { content:"\e910"}
+.icon-tel:before { content: "\e915";}
+
+.icon-play-two:before { content:"\e917"}
+.icon-like:before { content:"\e918"}
+.icon-time:before { content: "\e919";}
+.icon-results:before { content: "\e91c";}
+.icon-date:before { content: "\e91d";}
+
+
+.icon-msg-photo:before { content:"\e921"}
+.icon-msg-photograph:before { content: "\e920";}
+.icon-msg-video:before { content: "\e91f";}
+.icon-msg-Sound:before { content: "\e91e";}
+.icon-msg-play:before { content: "\e916";}

@@ -1,0 +1,120 @@
+html,body{height: 100%;width: 100%; }	
+html,body{-webkit-text-size-adjust: 100%;-webkit-tap-highlight-color: rgba(0, 0, 0, .1);}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, a,p,span, blockquote, th, td, hr, button,menu, nav, section { margin: 0;padding: 0;font-family: 'icomoon','Microsoft YaHei';}
+body {width: 100%;height: 100%; font-size: 18px; color: #333;background: #45536a;}
+ul,ol,dl{ list-style-type:none; font-family:"Microsoft YaHei";}
+select,input,textarea{vertical-align:middle;-webkit-appearance: none;}
+a{text-decoration:none;outline:none; color:#333}
+a:link,a:visited,a:active{text-decoration:none;outline:none;}
+i,em {font-style: normal; }
+
+//通用样式
+.color-green { color: #34b56b !important;}
+.color-red { color: #fd746a !important;}
+.color-yellow { color: #ffde6c !important;}
+.text-left { text-align: left !important;}
+.flex { display: flex;}
+
+@bg-navy-blue:#374459;
+@color-yellow:#ffde6c;
+
+//框架共用样式
+.big-title { height: 180px;line-height: 180px; font-size: 48px; text-align: center; color: #fff; font-weight: bold;}
+.main { margin: 0 100px;}
+
+
+
+//今日健康工作状态-左样式
+.width-a1 {width: 1090px; }
+.width-a2 {width: 570px; margin-left: 50px; }
+.work { margin-bottom: 50px; display: flex; height: 386px; overflow: hidden; background:@bg-navy-blue; border-radius: 20px;
+    .title { width: 110px; height: 386px; line-height: 110px; background: #2e3c52; color:@color-yellow;  writing-mode:vertical-lr; text-align: center; font-size: 26px; box-sizing: border-box;}
+    .list { flex: 1; padding-right: 40px;
+        .sm-title { 
+            .txt-l {color: #c4d2ff; }
+        }
+        
+        li { display: flex; overflow: hidden; 
+            .txt-l { flex: 1; height: 70px; line-height: 70px; color: #fff; font-size: 24px; text-align: center;}
+            span {display: -webkit-box; text-overflow: ellipsis;overflow : hidden; -webkit-line-clamp: 1;-webkit-box-orient: vertical; padding-bottom: .05rem;}
+        }
+    }
+    .col-3 {
+         .txt-l:nth-child(3) { flex: 2;}
+    }
+}
+//今日健康工作状态-右边样式
+.width-a2 {
+     .sm-title {
+        li span:nth-child(3) { flex: 1.5;}
+    }
+    .scroll {
+        li span:nth-child(3) { flex: 1.5;}
+    }
+}
+
+//晨检分析
+.analysis{
+    ul { display: flex;}
+    li { margin-right: 50px; width: 200px; height: 200px; border-radius: 200px; border:15px solid #6d789b; background:@bg-navy-blue; text-align: center;
+         .sum { font-size: 48px; color: @color-yellow;  display: block; padding-top: 50px;
+            em { font-size: 24px;}
+         }
+         .txt { font-size: 24px; color:#fff; display: block;}
+        &:nth-last-child(1) { margin-right: 0;}
+    }
+    
+}
+
+.analysis-box { display: flex;
+
+    .box { margin-top: 60px; height: 540px; flex: 1; background: @bg-navy-blue; border-radius: 20px; 
+        &:nth-child(2) { margin-left: 50px;}
+        .chart { width: 770px; height: 460px; margin: 0 auto; }
+        .sm-title { color: @color-yellow; text-align: center; display: block; width: 100%; font-size: 24px; font-weight: normal; line-height: 70px;}
+    }
+    
+}
+
+
+//本学期幼儿常见病月发病情况
+.situation {background: @bg-navy-blue; border-radius: 20px; height: 330px;}
+
+.statistics {background: @bg-navy-blue; border-radius: 20px; height: 330px;}
+
+//全园幼儿过敏源分布情况
+
+.allergen { display: flex; background: @bg-navy-blue; border-radius: 20px; margin-top: 50px; height: 420px;
+        .box-ward { flex: 1; margin-right: 30px; }
+        .sm-title { width: 100%;
+            ul { display: flex }
+            li { flex: 1;}
+            .txt-l { color: @color-yellow;}
+        }
+        
+        li {  display: flex; overflow: hidden; 
+            .txt-l { flex: 1; height: 66px; line-height: 66px; color: #fff; font-size: 24px; text-align: center;}
+            .txt-l:nth-last-child(1)  { flex: 1.5;display: -webkit-box; text-overflow: ellipsis;overflow : hidden; -webkit-line-clamp: 1;-webkit-box-orient: vertical; padding-bottom: .05rem;}
+           
+        }
+        .scroll { width: 100%;
+            ul:after { content: ""; width: 0; height: 0; display: block; clear:both}
+            
+        }
+         
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

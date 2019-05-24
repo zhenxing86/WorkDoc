@@ -1,0 +1,288 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+html,
+body {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+a,
+p,
+span,
+blockquote,
+th,
+td,
+hr,
+button,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  font-family: 'icomoon', 'Microsoft YaHei';
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  color: #333;
+  background: #45536a;
+}
+ul,
+ol,
+dl {
+  list-style-type: none;
+  font-family: "Microsoft YaHei";
+}
+select,
+input,
+textarea {
+  vertical-align: middle;
+  -webkit-appearance: none;
+}
+a {
+  text-decoration: none;
+  outline: none;
+  color: #333;
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  outline: none;
+}
+i,
+em {
+  font-style: normal;
+}
+.color-green {
+  color: #34b56b !important;
+}
+.color-red {
+  color: #fd746a !important;
+}
+.color-yellow {
+  color: #ffde6c !important;
+}
+.text-left {
+  text-align: left !important;
+}
+.flex {
+  display: flex;
+}
+.big-title {
+  height: 180px;
+  line-height: 180px;
+  font-size: 48px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+.main {
+  margin: 0 100px;
+}
+.width-a1 {
+  width: 1090px;
+}
+.width-a2 {
+  width: 570px;
+  margin-left: 50px;
+}
+.work {
+  margin-bottom: 50px;
+  display: flex;
+  height: 386px;
+  overflow: hidden;
+  background: #374459;
+  border-radius: 20px;
+}
+.work .title {
+  width: 110px;
+  height: 386px;
+  line-height: 110px;
+  background: #2e3c52;
+  color: #ffde6c;
+  writing-mode: vertical-lr;
+  text-align: center;
+  font-size: 26px;
+  box-sizing: border-box;
+}
+.work .list {
+  flex: 1;
+  padding-right: 40px;
+}
+.work .list .sm-title .txt-l {
+  color: #c4d2ff;
+}
+.work .list li {
+  display: flex;
+  overflow: hidden;
+}
+.work .list li .txt-l {
+  flex: 1;
+  height: 70px;
+  line-height: 70px;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+.work .list li span {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  padding-bottom: .05rem;
+}
+.work .col-3 .txt-l:nth-child(3) {
+  flex: 2;
+}
+.width-a2 .sm-title li span:nth-child(3) {
+  flex: 1.5;
+}
+.width-a2 .scroll li span:nth-child(3) {
+  flex: 1.5;
+}
+.analysis ul {
+  display: flex;
+}
+.analysis li {
+  margin-right: 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  border: 15px solid #6d789b;
+  background: #374459;
+  text-align: center;
+}
+.analysis li .sum {
+  font-size: 48px;
+  color: #ffde6c;
+  display: block;
+  padding-top: 50px;
+}
+.analysis li .sum em {
+  font-size: 24px;
+}
+.analysis li .txt {
+  font-size: 24px;
+  color: #fff;
+  display: block;
+}
+.analysis li:nth-last-child(1) {
+  margin-right: 0;
+}
+.analysis-box {
+  display: flex;
+}
+.analysis-box .box {
+  margin-top: 60px;
+  height: 540px;
+  flex: 1;
+  background: #374459;
+  border-radius: 20px;
+}
+.analysis-box .box:nth-child(2) {
+  margin-left: 50px;
+}
+.analysis-box .box .chart {
+  width: 770px;
+  height: 460px;
+  margin: 0 auto;
+}
+.analysis-box .box .sm-title {
+  color: #ffde6c;
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 70px;
+}
+.situation {
+  background: #374459;
+  border-radius: 20px;
+  height: 330px;
+}
+.statistics {
+  background: #374459;
+  border-radius: 20px;
+  height: 330px;
+}
+.allergen {
+  display: flex;
+  background: #374459;
+  border-radius: 20px;
+  margin-top: 50px;
+  height: 420px;
+}
+.allergen .box-ward {
+  flex: 1;
+  margin-right: 30px;
+}
+.allergen .sm-title {
+  width: 100%;
+}
+.allergen .sm-title ul {
+  display: flex;
+}
+.allergen .sm-title li {
+  flex: 1;
+}
+.allergen .sm-title .txt-l {
+  color: #ffde6c;
+}
+.allergen li {
+  display: flex;
+  overflow: hidden;
+}
+.allergen li .txt-l {
+  flex: 1;
+  height: 66px;
+  line-height: 66px;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+.allergen li .txt-l:nth-last-child(1) {
+  flex: 1.5;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  padding-bottom: .05rem;
+}
+.allergen .scroll {
+  width: 100%;
+}
+.allergen .scroll ul:after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  clear: both;
+}
